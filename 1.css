@@ -1,0 +1,98 @@
+
+body {
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #111111;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.top-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.sidebar-icon {
+	display: inline-block;
+	margin: 0;
+	flex: 1;
+}
+
+.sidebar-icon img {
+	width: 40px;
+	height: 30px;
+	border: none;
+}
+
+.logo {
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	flex: 1;
+	text-align: center;
+}
+
+.logo img {
+	width: 160px;
+	height: 50px;
+	border: none;
+}
+
+.profile-pic {
+	display: inline-block;
+	margin: 0;
+	flex: 1;
+	text-align: right;
+}
+
+.profile-pic .circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: none;
+	object-fit: cover;
+}
+
+.bot-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+}
+
+nav a:hover {
+	color: #666;
+}
+
+main h1 {
+	color: white;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	text-align: center;
+}
